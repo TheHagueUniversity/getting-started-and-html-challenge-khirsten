@@ -1,6 +1,7 @@
 html, body {
 	background: #663399; /* Beccapurple */
 	margin: 0;
+	scroll-behavior: smooth;
 }
 h1, h2, h3, h4, h5, h6, p {
 	margin: 0;
@@ -19,6 +20,7 @@ body {
 	background: white;
 	line-height: 1.8;
 }
+
 h1 {
 	font: 1.6em Verdana, Geneva, sans-serif;
 	margin-bottom: .4em;
