@@ -12,7 +12,25 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 nav > ul{
+	padding:50px 0px 50px 0px;
+	display : flex;
+	flex-direction : row;
+	align-items: center;
+	justify-content: space-between;
 	list-style-type: none;
+}
+
+@media all and (max-width: 800px) {
+	nav>ul {
+	  justify-content: space-around;
+	}
+  }
+
+  /* Small screens */
+  @media all and (max-width: 500px) {
+	nav>ul {
+	  flex-direction: column;
+	}
 }
 
 body {
